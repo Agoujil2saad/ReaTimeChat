@@ -1,0 +1,26 @@
+{
+  "name": "messaging_app",
+  "version": "1.0.0",
+  "description": "A real time application Using redis, Node.js, and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agoujil2saad/ReaTimeChat.git"
+  },
+  "author": "Agoujil Saad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agoujil2saad/ReaTimeChat/issues"
+  },
+  "homepage": "https://github.com/Agoujil2saad/ReaTimeChat#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.10.2",
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.4"
+  }
+}
